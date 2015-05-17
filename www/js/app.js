@@ -37,6 +37,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       controller: 'AppCtrl'
     })
 
+    .state('app.timelines', {
+      url: "/timelines",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/timelines.html"
+        }
+      }
+    })
     .state('app.timeline', {
       url: "/timeline",
       views: {
@@ -45,9 +53,25 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
+    .state('app.running', {
+      url: "/running",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/running.html"
+        }
+      }
+    })
+    .state('app.stopped', {
+      url: "/stopped",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/stopped.html"
+        }
+      }
+    })
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/timeline');
+  $urlRouterProvider.otherwise('/app/timelines');
 
 });
 
