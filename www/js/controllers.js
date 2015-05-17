@@ -5,6 +5,7 @@ angular.module('starter.controllers', [])
 
 .controller('FriendsCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
+  $scope.friend = "neal g";
 })
 
 .controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
