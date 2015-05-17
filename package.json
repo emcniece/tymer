@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "echo 'starting dev server' && node server.js",
     "sass:dev": "node_modules/.bin/node-sass scss/ionic.app.scss www/css/ionic.app.css -w",
-    "clean:dev" "rimraf dev/ && mkdir dev/",
+    "clean:dev": "rimraf dev/ && mkdir dev/",
     "clean" "rimraf build/ && mkdir build/"
   },
   "dependencies": {
