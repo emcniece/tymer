@@ -41,7 +41,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: "/timelines",
       views: {
         'menuContent': {
-          templateUrl: "templates/timelines.html"
+          templateUrl: "templates/timelines.html",
+          controller: "TimelineCtrl"
         }
       }
     })
@@ -49,7 +50,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: "/timeline",
       views: {
         'menuContent': {
-          templateUrl: "templates/timeline.html"
+          templateUrl: "templates/timeline.html",
+          controller: "TimelineCtrl"
         }
       }
     })
@@ -57,7 +59,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: "/running",
       views: {
         'menuContent': {
-          templateUrl: "templates/running.html"
+          templateUrl: "templates/running.html",
+          controller: "RunCtrl"
         }
       }
     })
