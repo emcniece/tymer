@@ -4,9 +4,9 @@ angular.module('starter.controllers', [])
 })
 
 .controller('AppCtrl', function($scope, Timelines) {
-  $scope.timeline = {
-    name: "Untitled Timeline"
-  }
+  //$scope.timeline = {
+  //  name: "Untitled Timeline"
+  //}
   //$scope.events = [
   //  { title: "test"}
   //];

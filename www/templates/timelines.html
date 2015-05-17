@@ -1,0 +1,18 @@
+<ion-view view-title="Timer app">
+  <ion-content class="padding">
+
+  	<div class="intro" ng-show="!events.length">
+      <p>build your timeline<br />
+      by adding an event</p>
+  	</div>
+
+    <ul>
+      <li ng-repeat="event in events">{{event.title}}</li>
+    </ul>
+
+    <div class="timeline-start">
+      <a href="#" class="ion-plus icon-button--round"></a>
+    </div>
+
+  </ion-content>
+</ion-view>
