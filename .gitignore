@@ -4,9 +4,15 @@ logs
 
 .DS_store
 
+bower_components/
 node_modules/
 .*.sw*
+
+# ignore compiled scss
+www/css
+
 keys/
 platforms/
+
 plugins/
 tmp/

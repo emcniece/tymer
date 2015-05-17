@@ -4,10 +4,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "echo 'starting dev server' && node server.js"
+    "postinstall": "node_modules/.bin/bower install && npm run sass -- -output-style=compressed",
+    "dev": "npm run sass && npm run sass -- -w & npm run livereload",
+    "livereload": "node server-livereload.js",
+    "sass": "node_modules/.bin/node-sass scss/ionic.app.scss www/css/ionic.app.css"
   },
   "dependencies": {
     "express": "~4.4.3",
     "livereload": "^0.3.7"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "node-libs-browser": "^0.5.0",
+    "node-sass": "^3.1.1",
+    "rimraf": "^2.3.3",
+    "webpack": "^1.9.6"
   }
 }
