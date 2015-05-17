@@ -1,22 +1,61 @@
-/*
-To customize the look and feel of Ionic, you can override the variables
-in ionic's _variables.scss file.
+@charset "UTF-8";
 
-For example, you might change some of the default colors:
 
-$light:                           #fff !default;
-$stable:                          #f8f8f8 !default;
-$positive:                        #387ef5 !default;
-$calm:                            #11c1f3 !default;
-$balanced:                        #33cd5f !default;
-$energized:                       #ffc900 !default;
-$assertive:                       #ef473a !default;
-$royal:                           #886aea !default;
-$dark:                            #444 !default;
-*/
+ @import "variables";
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../bower_components/ionic/scss/ionic/release/fonts" !default;
 
 // Include all of Ionic
-@import "../bower_components/ionic/scss/ionic";
+
+@import
+  // Ionicons
+  "../bower_components/ionic/scss/ionicons/ionicons.scss",
+
+  // Variables
+  "../bower_components/ionic/scss/mixins",
+  "../bower_components/ionic/scss/variables",
+
+  // Base
+  "../bower_components/ionic/scss/reset",
+  "../bower_components/ionic/scss/scaffolding",
+  "../bower_components/ionic/scss/type",
+
+  // Components
+  "../bower_components/ionic/scss/action-sheet",
+  "../bower_components/ionic/scss/backdrop",
+  "../bower_components/ionic/scss/bar",
+  "../bower_components/ionic/scss/tabs",
+  "../bower_components/ionic/scss/menu",
+  "../bower_components/ionic/scss/modal",
+  "../bower_components/ionic/scss/popover",
+  "../bower_components/ionic/scss/popup",
+  "../bower_components/ionic/scss/loading",
+  "../bower_components/ionic/scss/items",
+  "../bower_components/ionic/scss/list",
+  "../bower_components/ionic/scss/badge",
+  "../bower_components/ionic/scss/slide-box",
+  "../bower_components/ionic/scss/refresher",
+  "../bower_components/ionic/scss/spinner",
+
+  // Forms
+  "../bower_components/ionic/scss/form",
+  "../bower_components/ionic/scss/checkbox",
+  "../bower_components/ionic/scss/toggle",
+  "../bower_components/ionic/scss/radio",
+  "../bower_components/ionic/scss/range",
+  "../bower_components/ionic/scss/select",
+  "../bower_components/ionic/scss/progress",
+
+  // Buttons
+  "../bower_components/ionic/scss/button",
+  "../bower_components/ionic/scss/button-bar",
+
+  // Util
+  "../bower_components/ionic/scss/grid",
+  "../bower_components/ionic/scss/util",
+  "../bower_components/ionic/scss/platform",
+
+  // Animations
+  "../bower_components/ionic/scss/animations",
+  "../bower_components/ionic/scss/transitions";
