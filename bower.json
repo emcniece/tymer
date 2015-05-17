@@ -1,0 +1,8 @@
+{
+  "name": "tymer",
+  "dependencies": {
+    "ionicons": "~2.0.1",
+    "ionic": "~1.0.0",
+    "ngstorage": "~0.3.3"
+  }
+}
