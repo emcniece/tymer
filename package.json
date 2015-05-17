@@ -10,7 +10,8 @@
     "clean" "rimraf build/ && mkdir build/"
   },
   "dependencies": {
-    "express": "~4.4.3"
+    "express": "~4.4.3",
+    "livereload": "^0.3.7"
   },
   "devDependencies": {
     "node-sass": "^3.1.1",

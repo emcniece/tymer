@@ -10,3 +10,8 @@ build/
 dev/
 keys/
 platforms/
+<<<<<<< HEAD
+=======
+plugins/
+tmp/
+>>>>>>> 9511f2577814de5ed118934cddee15164ade6216
