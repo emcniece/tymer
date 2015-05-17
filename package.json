@@ -3,10 +3,14 @@
   "description": "Ionic Node.js Heroku app",
   "version": "0.1.0",
   "private": true,
-  "scripts":  {
-    "dev": "echo 'starting dev server' && node server.js"
+  "scripts": {
+    "dev": "echo 'starting dev server' && node server.js",
+    "sass:dev": "node_modules/.bin/node-sass scss/ionic.app.scss www/css/ionic.app.css -w"
   },
   "dependencies": {
     "express": "~4.4.3"
+  },
+  "devDependencies": {
+    "node-sass": "^3.1.1"
   }
 }
