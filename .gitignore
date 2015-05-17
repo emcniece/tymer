@@ -2,3 +2,5 @@ node_modules/
 .*.sw*
 build/
 dev/
+keys/
+platforms/
