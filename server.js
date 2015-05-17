@@ -7,7 +7,10 @@ app.use(express.static('www'));
 app.use('/components', express.static('bower_components'));
 
 // serve up a placeholder cordova.js
-app.use('/cordova.js', function(req, res, next) { res.send('//don\'t worry, be happy'); });
+app.use('/cordova.js', function(req, res, next) {
+  res.set('Content-Type', 'application/javascript')
+  res.send('// don\'t worry, be happy');
+});
 
 // CORS (Cross-Origin Resource Sharing) headers to support Cross-site HTTP requests
 app.all('*', function(req, res, next) {
