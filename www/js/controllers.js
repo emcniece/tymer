@@ -12,4 +12,6 @@ angular.module('starter.controllers', [])
   //];
 
 })
+.controller('TimelineCtrl', function($scope, Timelines) {
+})
 ;
