@@ -8,9 +8,8 @@ bower_components/
 node_modules/
 .*.sw*
 
-# ignore compiled scss and js
+# ignore compiled scss
 www/css
-www/js
 
 keys/
 platforms/
