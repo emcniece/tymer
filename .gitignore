@@ -2,3 +2,5 @@ node_modules/
 .*.sw*
 keys/
 platforms/
+tmp/
+plugins/

@@ -1,9 +1,9 @@
 {
-  "name": "ionic-heroku",
-  "description": "Ionic Node.js Heroku app",
+  "name": "herp",
+  "description": "herp: An Ionic project",
   "version": "0.1.0",
   "private": true,
-  "scripts":  {
+  "scripts": {
     "dev": "echo 'starting dev server' && node server.js"
   },
   "dependencies": {
