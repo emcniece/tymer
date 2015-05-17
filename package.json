@@ -3,6 +3,9 @@
   "description": "Ionic Node.js Heroku app",
   "version": "0.1.0",
   "private": true,
+  "scripts":  {
+    "dev": "echo 'starting dev server' && node server.js"
+  },
   "dependencies": {
     "express": "~4.4.3"
   }
